@@ -13,3 +13,10 @@ for (let i = 0; i < 3; i++) {
 }
 
 document.body.appendChild(btnContainer)
+
+const allButtons = document.querySelectorAll('.button')
+allButtons.forEach(button => {
+    button.addEventListener('click', (e) => {
+        console.log("I'm clicking the button, and here is e.target: ", e.target)
+    })
+})
