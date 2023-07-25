@@ -5,7 +5,7 @@ console.log("loaded")
 const btnContainer = document.querySelector('.button-container')
 console.log(btnContainer)
 
-for (let i = 0; i < 4; i++) {
+for (let i = 0; i < 3; i++) {
     const buttonEl = document.createElement('button')
     buttonEl.className = 'button'
     buttonEl.innerText = i
